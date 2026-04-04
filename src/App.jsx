@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MyProjects from "./components/MyProjects";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.jpeg";
 
 export default function App() {
   return (
