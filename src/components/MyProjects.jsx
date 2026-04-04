@@ -17,7 +17,7 @@ const projects = [
     github: "https://github.com/stevanydinda/Project-Hotel", // optional
   },
 ];
-
+j
 export default function MyProjects() {
   return (
     <section id="myprojects" className="bg-white py-20 px-4">
