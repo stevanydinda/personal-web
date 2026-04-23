@@ -7,6 +7,7 @@ import web6 from "../assets/dictionary.png";
 import web7 from "../assets/tixid.png";
 import web8 from "../assets/platzi.png";
 import web9 from "../assets/flutter1.png";
+import web10 from "../assets/imt.png";
 
 const projects = [
   {
@@ -57,6 +58,13 @@ const projects = [
     img: web9,
     tech: ["Flutter"],
     github: "https://github.com/stevanydinda/profile-diri-1fl",
+  },
+   {
+    title: "Hitung IMT",
+    desc: "Aplikasi untuk menghitung Indeks Massa Tubuh",
+    img: web10,
+    tech: ["PHP"],
+    github: "https://github.com/stevanydinda/IMT",
   },
   {
     title: "Figma Design",
