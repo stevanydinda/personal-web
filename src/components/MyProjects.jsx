@@ -6,6 +6,7 @@ import web5 from "../assets/fashionproyek.png";
 import web6 from "../assets/dictionary.png";
 import web7 from "../assets/tixid.png";
 import web8 from "../assets/platzi.png";
+import web9 from "../assets/flutter1.png";
 
 const projects = [
   {
@@ -49,6 +50,13 @@ const projects = [
     img: web8,
     tech: ["ReactJs"],
     github: "https://github.com/stevanydinda/platzi-store",
+  },
+  {
+    title: "Halaman Profile",
+    desc: "Halaman profile pribadi",
+    img: web9,
+    tech: ["Flutter"],
+    github: "https://github.com/stevanydinda/profile-diri-1fl",
   },
   {
     title: "Figma Design",
