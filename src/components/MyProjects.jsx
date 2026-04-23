@@ -1,6 +1,6 @@
 import web1 from "../assets/konser.png";
 import web2 from "../assets/hotel.png";
-import web3 from "../assets/figma design 1.png";
+import web3 from "../assets/Figma design 1.png";
 import web4 from "../assets/figma design 2.png";
 import web5 from "../assets/fashionproyek.png";
 import web6 from "../assets/dictionary.png";
