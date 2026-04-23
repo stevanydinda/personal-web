@@ -5,6 +5,7 @@ export default function Skills() {
     "JavaScript",
     "React",
     "UI/UX Design",
+    "Flutter",
     "Laravel",
     "Figma",
     "PHP",

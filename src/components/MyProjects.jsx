@@ -1,5 +1,11 @@
 import web1 from "../assets/konser.png";
 import web2 from "../assets/hotel.png";
+import web3 from "../assets/figma design 1.png";
+import web4 from "../assets/figma design 2.png";
+import web5 from "../assets/fashionproyek.png";
+import web6 from "../assets/dictionary.png";
+import web7 from "../assets/tixid.png";
+import web8 from "../assets/platzi.png";
 
 const projects = [
   {
@@ -7,14 +13,54 @@ const projects = [
     desc: "Website untuk memesan tiket konser dengan fitur pemesanan online",
     img: web1,
     tech: ["PHP"],
-    github: "https://github.com/stevanydinda/Tugas-PTS-", // optional
+    github: "https://github.com/stevanydinda/Tugas-PTS-",
   },
   {
     title: "Website Hotel",
     desc: "Website memesan kamar hotel",
     img: web2,
     tech: ["Laravel", "Bootstrap", "Tailwind"],
-    github: "https://github.com/stevanydinda/Project-Hotel", // optional
+    github: "https://github.com/stevanydinda/Project-Hotel",
+  },
+  {
+    title: "Website fashion",
+    desc: "Website memesan pakaian",
+    img: web5,
+    tech: ["Laravel"],
+    github: "https://github.com/stevanydinda/Fashion",
+  },
+  {
+    title: "Website English dictionary",
+    desc: "Website untuk mencari arti kata dalam bahasa Inggris",
+    img: web6,
+    tech: ["ReactJs"],
+    github: "https://github.com/stevanydinda/english-dictionary",
+  },
+  {
+    title: "Website Pemesanan Tiket Bioskop",
+    desc: "Website untuk memesan tiket bioskop",
+    img: web7,
+    tech: ["Laravel, Bootstrap"],
+    github: "https://github.com/stevanydinda/TIX-ID",
+  },
+  {
+    title: "Website Ecommerce",
+    desc: "Website untuk memesan produk",
+    img: web8,
+    tech: ["ReactJs"],
+    github: "https://github.com/stevanydinda/platzi-store",
+  },
+  {
+    title: "Figma Design",
+    desc: "Memesan Makanan",
+    img: web3,
+    tech: ["Figma"],
+  },
+   {
+    title: "Figma Design",
+    desc: "HearmeOut (desain untuk aspirasi sekolah)",
+    img: web4,
+    tech: ["Figma"],
   },
 ];
 
@@ -22,7 +68,6 @@ export default function MyProjects() {
   return (
     <section id="myprojects" className="bg-white py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        
         <h2 className="text-3xl font-bold text-blue-900 mb-10 text-center">
           Project Saya
         </h2>
@@ -44,9 +89,7 @@ export default function MyProjects() {
                   {item.title}
                 </h3>
 
-                <p className="text-gray-600 text-sm mb-3">
-                  {item.desc}
-                </p>
+                <p className="text-gray-600 text-sm mb-3">{item.desc}</p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {item.tech.map((tech, i) => (
@@ -59,16 +102,7 @@ export default function MyProjects() {
                   ))}
                 </div>
 
-                {/* 🔗 BUTTON */}
-                <div className="flex gap-3">
-                  <a
-                    href={item.demo}
-                    target="_blank"
-                    className="bg-blue-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-800 transition"
-                  >
-                    Lihat Website
-                  </a>
-
+                <div className="flex gap-4">
                   {item.github && (
                     <a
                       href={item.github}
@@ -79,12 +113,10 @@ export default function MyProjects() {
                     </a>
                   )}
                 </div>
-
               </div>
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
