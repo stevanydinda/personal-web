@@ -9,7 +9,7 @@ export default function Navbar() {
         
         {/* LOGO */}
         <h1 className="text-blue-900 font-semibold text-lg">
-          PORTOFOLIO
+          stevanyhae
         </h1>
 
         {/* DESKTOP MENU */}

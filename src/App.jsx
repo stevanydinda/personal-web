@@ -26,11 +26,8 @@ export default function App() {
           {/* TEXT */}
           <div>
             <h1 className="text-4xl font-bold text-blue-900 mb-2">
-              Hi, I'm Stevany Dinda Swaragita
+              Hola, Stevany here! 
             </h1>
-            <p className="text-gray-600 max-w-md">
-              Siswi yang memiliki minat di bidang desain dan web development.
-            </p>
           </div>
         </section>
 

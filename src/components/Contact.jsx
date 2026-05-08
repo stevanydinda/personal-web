@@ -2,16 +2,15 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-gray-50 py-20 px-4">
       <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-8 md:p-12 grid md:grid-cols-2 gap-10">
-
         {/* LEFT SIDE */}
         <div>
           <h2 className="text-3xl font-bold text-indigo-600 mb-4">
-            Mari Bekerja Sama
+            Get in Touch
           </h2>
 
           <p className="text-gray-600 mb-6 leading-relaxed">
-            Saya selalu terbuka untuk mendiskusikan pekerjaan proyek baru,
-            ide kreatif, atau sekadar bertukar pikiran. Jangan ragu untuk
+            Saya selalu terbuka untuk mendiskusikan pekerjaan proyek baru, ide
+            kreatif, atau sekadar bertukar pikiran. Jangan ragu untuk
             menghubungi saya melalui formulir ini.
           </p>
 
@@ -36,9 +35,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <label className="block text-sm mb-1 text-gray-700">
-              Email
-            </label>
+            <label className="block text-sm mb-1 text-gray-700">Email</label>
             <input
               type="email"
               placeholder="email@example.com"
@@ -47,9 +44,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <label className="block text-sm mb-1 text-gray-700">
-              Pesan
-            </label>
+            <label className="block text-sm mb-1 text-gray-700">Pesan</label>
             <textarea
               rows="4"
               placeholder="Tulis pesan Anda di sini..."
@@ -64,7 +59,6 @@ export default function Contact() {
             Kirim Pesan
           </button>
         </form>
-
       </div>
     </section>
   );
