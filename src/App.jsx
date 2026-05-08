@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MyProjects from "./components/MyProjects";
-import profile from "./assets/profile.jpg";
+import stevanyprofile from "./assets/stevanyprofile.png";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <section className="h-screen flex flex-col md:flex-row justify-center items-center text-center md:text-left bg-blue-50 gap-6 px-4">
           {/* FOTO */}
           <img
-            src={profile}
+            src={stevanyprofile}
             alt="profile"
             className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover shadow-md"
           />
