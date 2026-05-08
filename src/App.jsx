@@ -7,15 +7,21 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MyProjects from "./components/MyProjects";
 import stevanyprofile from "./assets/stevanyprofile.png";
+import Logo from "./assets/logo.png";
 
 export default function App() {
   return (
     <div className="font-sans text-gray-800 bg-white">
       <Navbar />
-
+      <img 
+        src={Logo}
+        alt="logo"
+        className="w-16 h-16 fixed top-4 left-4 z-50"
+      />
       <main>
         {/* HERO */}
         <section className="h-screen flex flex-col md:flex-row justify-center items-center text-center md:text-left bg-blue-50 gap-6 px-4">
+          
           {/* FOTO */}
           <img
             src={stevanyprofile}
