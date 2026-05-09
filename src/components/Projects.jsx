@@ -24,31 +24,48 @@ const certificates = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-blue-50 py-20 px-4">
+    <section
+      id="projects"
+      className="py-24 bg-white px-6"
+    >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-blue-900 mb-10 text-center">
-          Certificate
-        </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
+        {/* TITLE */}
+        <div className="text-center mb-16">
+          
+
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-950">
+            Certificates
+          </h2>
+
+          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+            Sertifikat pelatihan dan pembelajaran yang telah saya selesaikan.
+          </p>
+        </div>
+
+        {/* GRID */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
           {certificates.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition duration-300"
+              className="group bg-blue-50 rounded-[30px] overflow-hidden border border-blue-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-500"
             >
-              <img
-                src={item.img}
-                alt={item.title}
-                className="w-full h-56 object-contain bg-gray-50 p-2 hover:scale-105 transition duration-300"
-              />
+              {/* IMAGE */}
+              <div className="overflow-hidden bg-white">
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-72 object-contain p-4 group-hover:scale-105 transition duration-500"
+                />
+              </div>
 
-              <div className="p-4">
-                <h3 className="text-blue-900 font-semibold text-lg">
+              {/* CONTENT */}
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-blue-900 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-500">
-                  Sertifikat yang telah saya peroleh
-                </p>
+
+                
               </div>
             </div>
           ))}

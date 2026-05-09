@@ -11,24 +11,37 @@ export default function Skills() {
     "PHP",
     "C#",
     "Python",
-    "mySQL",
+    "MySQL",
     "Git",
-    "Komunikasi",
-    "Kerja Tim",
+    "Communication",
+    "Team Work",
     "Problem Solving",
   ];
 
   return (
-    <section id="skills" className="bg-blue-50 py-20 px-4">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-semibold text-blue-900 mb-6">Skills</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <section
+      id="skills"
+      className="py-24 bg-gradient-to-b from-white to-blue-50 px-6"
+    >
+      <div className="max-w-6xl mx-auto">
+        
+        <div className="text-center mb-14">
+          
+
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-950">
+            My Skills
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
           {skills.map((skill) => (
             <div
               key={skill}
-              className="bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition"
+              className="bg-white border border-blue-100 rounded-3xl p-6 text-center shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300"
             >
-              {skill}
+              <h3 className="font-semibold text-blue-900 text-lg">
+                {skill}
+              </h3>
             </div>
           ))}
         </div>
