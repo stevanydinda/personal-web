@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="font-sans text-gray-800 bg-white">
       <Navbar />
-      <img 
+      <img
         src={Logo}
         alt="logo"
         className="w-16 h-16 fixed top-4 left-4 z-50"
@@ -21,7 +21,6 @@ export default function App() {
       <main>
         {/* HERO */}
         <section className="h-screen flex flex-col md:flex-row justify-center items-center text-center md:text-left bg-blue-50 gap-6 px-4">
-          
           {/* FOTO */}
           <img
             src={stevanyprofile}
@@ -32,7 +31,7 @@ export default function App() {
           {/* TEXT */}
           <div>
             <h1 className="text-4xl font-bold text-blue-900 mb-2">
-              Hola, Stevany here! 
+              Hola, Stevany here!
             </h1>
           </div>
         </section>
@@ -43,7 +42,6 @@ export default function App() {
         <MyProjects />
         <Projects />
         <Contact />
-       
       </main>
 
       <Footer />
