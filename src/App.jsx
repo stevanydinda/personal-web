@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MyProjects from "./components/MyProjects";
 import stevanyprofile from "./assets/stevanyprofile.png";
-import Logo from "./assets/logo.png";
+import Logo from "./assets/LOGO.png";
 
 export default function App() {
   return (
